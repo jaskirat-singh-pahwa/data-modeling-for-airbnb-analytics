@@ -1,0 +1,1024 @@
+amenities_id,amenities_description,amenities_score
+0,['Wireless Internet'],10
+1,['Heating'],9
+2,['Kitchen'],8
+3,['Smoke Detector'],7
+4,['Essentials'],6
+5,['Dryer'],5
+6,['Washer'],4
+7,['Internet'],3
+8,['Shampoo'],2
+9,['TV'],1
+10,"['Heating', 'Wireless Internet']",19
+11,"['Kitchen', 'Wireless Internet']",18
+12,"['Smoke Detector', 'Wireless Internet']",17
+13,"['Essentials', 'Wireless Internet']",16
+14,"['Dryer', 'Wireless Internet']",15
+15,"['Washer', 'Wireless Internet']",14
+16,"['Internet', 'Wireless Internet']",13
+17,"['Shampoo', 'Wireless Internet']",12
+18,"['TV', 'Wireless Internet']",11
+19,"['Heating', 'Kitchen']",17
+20,"['Heating', 'Smoke Detector']",16
+21,"['Essentials', 'Heating']",15
+22,"['Dryer', 'Heating']",14
+23,"['Heating', 'Washer']",13
+24,"['Heating', 'Internet']",12
+25,"['Heating', 'Shampoo']",11
+26,"['Heating', 'TV']",10
+27,"['Kitchen', 'Smoke Detector']",15
+28,"['Essentials', 'Kitchen']",14
+29,"['Dryer', 'Kitchen']",13
+30,"['Kitchen', 'Washer']",12
+31,"['Internet', 'Kitchen']",11
+32,"['Kitchen', 'Shampoo']",10
+33,"['Kitchen', 'TV']",9
+34,"['Essentials', 'Smoke Detector']",13
+35,"['Dryer', 'Smoke Detector']",12
+36,"['Smoke Detector', 'Washer']",11
+37,"['Internet', 'Smoke Detector']",10
+38,"['Shampoo', 'Smoke Detector']",9
+39,"['Smoke Detector', 'TV']",8
+40,"['Dryer', 'Essentials']",11
+41,"['Essentials', 'Washer']",10
+42,"['Essentials', 'Internet']",9
+43,"['Essentials', 'Shampoo']",8
+44,"['Essentials', 'TV']",7
+45,"['Dryer', 'Washer']",9
+46,"['Dryer', 'Internet']",8
+47,"['Dryer', 'Shampoo']",7
+48,"['Dryer', 'TV']",6
+49,"['Internet', 'Washer']",7
+50,"['Shampoo', 'Washer']",6
+51,"['TV', 'Washer']",5
+52,"['Internet', 'Shampoo']",5
+53,"['Internet', 'TV']",4
+54,"['Shampoo', 'TV']",3
+55,"['Heating', 'Kitchen', 'Wireless Internet']",27
+56,"['Heating', 'Smoke Detector', 'Wireless Internet']",26
+57,"['Essentials', 'Heating', 'Wireless Internet']",25
+58,"['Dryer', 'Heating', 'Wireless Internet']",24
+59,"['Heating', 'Washer', 'Wireless Internet']",23
+60,"['Heating', 'Internet', 'Wireless Internet']",22
+61,"['Heating', 'Shampoo', 'Wireless Internet']",21
+62,"['Heating', 'TV', 'Wireless Internet']",20
+63,"['Kitchen', 'Smoke Detector', 'Wireless Internet']",25
+64,"['Essentials', 'Kitchen', 'Wireless Internet']",24
+65,"['Dryer', 'Kitchen', 'Wireless Internet']",23
+66,"['Kitchen', 'Washer', 'Wireless Internet']",22
+67,"['Internet', 'Kitchen', 'Wireless Internet']",21
+68,"['Kitchen', 'Shampoo', 'Wireless Internet']",20
+69,"['Kitchen', 'TV', 'Wireless Internet']",19
+70,"['Essentials', 'Smoke Detector', 'Wireless Internet']",23
+71,"['Dryer', 'Smoke Detector', 'Wireless Internet']",22
+72,"['Smoke Detector', 'Washer', 'Wireless Internet']",21
+73,"['Internet', 'Smoke Detector', 'Wireless Internet']",20
+74,"['Shampoo', 'Smoke Detector', 'Wireless Internet']",19
+75,"['Smoke Detector', 'TV', 'Wireless Internet']",18
+76,"['Dryer', 'Essentials', 'Wireless Internet']",21
+77,"['Essentials', 'Washer', 'Wireless Internet']",20
+78,"['Essentials', 'Internet', 'Wireless Internet']",19
+79,"['Essentials', 'Shampoo', 'Wireless Internet']",18
+80,"['Essentials', 'TV', 'Wireless Internet']",17
+81,"['Dryer', 'Washer', 'Wireless Internet']",19
+82,"['Dryer', 'Internet', 'Wireless Internet']",18
+83,"['Dryer', 'Shampoo', 'Wireless Internet']",17
+84,"['Dryer', 'TV', 'Wireless Internet']",16
+85,"['Internet', 'Washer', 'Wireless Internet']",17
+86,"['Shampoo', 'Washer', 'Wireless Internet']",16
+87,"['TV', 'Washer', 'Wireless Internet']",15
+88,"['Internet', 'Shampoo', 'Wireless Internet']",15
+89,"['Internet', 'TV', 'Wireless Internet']",14
+90,"['Shampoo', 'TV', 'Wireless Internet']",13
+91,"['Heating', 'Kitchen', 'Smoke Detector']",24
+92,"['Essentials', 'Heating', 'Kitchen']",23
+93,"['Dryer', 'Heating', 'Kitchen']",22
+94,"['Heating', 'Kitchen', 'Washer']",21
+95,"['Heating', 'Internet', 'Kitchen']",20
+96,"['Heating', 'Kitchen', 'Shampoo']",19
+97,"['Heating', 'Kitchen', 'TV']",18
+98,"['Essentials', 'Heating', 'Smoke Detector']",22
+99,"['Dryer', 'Heating', 'Smoke Detector']",21
+100,"['Heating', 'Smoke Detector', 'Washer']",20
+101,"['Heating', 'Internet', 'Smoke Detector']",19
+102,"['Heating', 'Shampoo', 'Smoke Detector']",18
+103,"['Heating', 'Smoke Detector', 'TV']",17
+104,"['Dryer', 'Essentials', 'Heating']",20
+105,"['Essentials', 'Heating', 'Washer']",19
+106,"['Essentials', 'Heating', 'Internet']",18
+107,"['Essentials', 'Heating', 'Shampoo']",17
+108,"['Essentials', 'Heating', 'TV']",16
+109,"['Dryer', 'Heating', 'Washer']",18
+110,"['Dryer', 'Heating', 'Internet']",17
+111,"['Dryer', 'Heating', 'Shampoo']",16
+112,"['Dryer', 'Heating', 'TV']",15
+113,"['Heating', 'Internet', 'Washer']",16
+114,"['Heating', 'Shampoo', 'Washer']",15
+115,"['Heating', 'TV', 'Washer']",14
+116,"['Heating', 'Internet', 'Shampoo']",14
+117,"['Heating', 'Internet', 'TV']",13
+118,"['Heating', 'Shampoo', 'TV']",12
+119,"['Essentials', 'Kitchen', 'Smoke Detector']",21
+120,"['Dryer', 'Kitchen', 'Smoke Detector']",20
+121,"['Kitchen', 'Smoke Detector', 'Washer']",19
+122,"['Internet', 'Kitchen', 'Smoke Detector']",18
+123,"['Kitchen', 'Shampoo', 'Smoke Detector']",17
+124,"['Kitchen', 'Smoke Detector', 'TV']",16
+125,"['Dryer', 'Essentials', 'Kitchen']",19
+126,"['Essentials', 'Kitchen', 'Washer']",18
+127,"['Essentials', 'Internet', 'Kitchen']",17
+128,"['Essentials', 'Kitchen', 'Shampoo']",16
+129,"['Essentials', 'Kitchen', 'TV']",15
+130,"['Dryer', 'Kitchen', 'Washer']",17
+131,"['Dryer', 'Internet', 'Kitchen']",16
+132,"['Dryer', 'Kitchen', 'Shampoo']",15
+133,"['Dryer', 'Kitchen', 'TV']",14
+134,"['Internet', 'Kitchen', 'Washer']",15
+135,"['Kitchen', 'Shampoo', 'Washer']",14
+136,"['Kitchen', 'TV', 'Washer']",13
+137,"['Internet', 'Kitchen', 'Shampoo']",13
+138,"['Internet', 'Kitchen', 'TV']",12
+139,"['Kitchen', 'Shampoo', 'TV']",11
+140,"['Dryer', 'Essentials', 'Smoke Detector']",18
+141,"['Essentials', 'Smoke Detector', 'Washer']",17
+142,"['Essentials', 'Internet', 'Smoke Detector']",16
+143,"['Essentials', 'Shampoo', 'Smoke Detector']",15
+144,"['Essentials', 'Smoke Detector', 'TV']",14
+145,"['Dryer', 'Smoke Detector', 'Washer']",16
+146,"['Dryer', 'Internet', 'Smoke Detector']",15
+147,"['Dryer', 'Shampoo', 'Smoke Detector']",14
+148,"['Dryer', 'Smoke Detector', 'TV']",13
+149,"['Internet', 'Smoke Detector', 'Washer']",14
+150,"['Shampoo', 'Smoke Detector', 'Washer']",13
+151,"['Smoke Detector', 'TV', 'Washer']",12
+152,"['Internet', 'Shampoo', 'Smoke Detector']",12
+153,"['Internet', 'Smoke Detector', 'TV']",11
+154,"['Shampoo', 'Smoke Detector', 'TV']",10
+155,"['Dryer', 'Essentials', 'Washer']",15
+156,"['Dryer', 'Essentials', 'Internet']",14
+157,"['Dryer', 'Essentials', 'Shampoo']",13
+158,"['Dryer', 'Essentials', 'TV']",12
+159,"['Essentials', 'Internet', 'Washer']",13
+160,"['Essentials', 'Shampoo', 'Washer']",12
+161,"['Essentials', 'TV', 'Washer']",11
+162,"['Essentials', 'Internet', 'Shampoo']",11
+163,"['Essentials', 'Internet', 'TV']",10
+164,"['Essentials', 'Shampoo', 'TV']",9
+165,"['Dryer', 'Internet', 'Washer']",12
+166,"['Dryer', 'Shampoo', 'Washer']",11
+167,"['Dryer', 'TV', 'Washer']",10
+168,"['Dryer', 'Internet', 'Shampoo']",10
+169,"['Dryer', 'Internet', 'TV']",9
+170,"['Dryer', 'Shampoo', 'TV']",8
+171,"['Internet', 'Shampoo', 'Washer']",9
+172,"['Internet', 'TV', 'Washer']",8
+173,"['Shampoo', 'TV', 'Washer']",7
+174,"['Internet', 'Shampoo', 'TV']",6
+175,"['Heating', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",34
+176,"['Essentials', 'Heating', 'Kitchen', 'Wireless Internet']",33
+177,"['Dryer', 'Heating', 'Kitchen', 'Wireless Internet']",32
+178,"['Heating', 'Kitchen', 'Washer', 'Wireless Internet']",31
+179,"['Heating', 'Internet', 'Kitchen', 'Wireless Internet']",30
+180,"['Heating', 'Kitchen', 'Shampoo', 'Wireless Internet']",29
+181,"['Heating', 'Kitchen', 'TV', 'Wireless Internet']",28
+182,"['Essentials', 'Heating', 'Smoke Detector', 'Wireless Internet']",32
+183,"['Dryer', 'Heating', 'Smoke Detector', 'Wireless Internet']",31
+184,"['Heating', 'Smoke Detector', 'Washer', 'Wireless Internet']",30
+185,"['Heating', 'Internet', 'Smoke Detector', 'Wireless Internet']",29
+186,"['Heating', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",28
+187,"['Heating', 'Smoke Detector', 'TV', 'Wireless Internet']",27
+188,"['Dryer', 'Essentials', 'Heating', 'Wireless Internet']",30
+189,"['Essentials', 'Heating', 'Washer', 'Wireless Internet']",29
+190,"['Essentials', 'Heating', 'Internet', 'Wireless Internet']",28
+191,"['Essentials', 'Heating', 'Shampoo', 'Wireless Internet']",27
+192,"['Essentials', 'Heating', 'TV', 'Wireless Internet']",26
+193,"['Dryer', 'Heating', 'Washer', 'Wireless Internet']",28
+194,"['Dryer', 'Heating', 'Internet', 'Wireless Internet']",27
+195,"['Dryer', 'Heating', 'Shampoo', 'Wireless Internet']",26
+196,"['Dryer', 'Heating', 'TV', 'Wireless Internet']",25
+197,"['Heating', 'Internet', 'Washer', 'Wireless Internet']",26
+198,"['Heating', 'Shampoo', 'Washer', 'Wireless Internet']",25
+199,"['Heating', 'TV', 'Washer', 'Wireless Internet']",24
+200,"['Heating', 'Internet', 'Shampoo', 'Wireless Internet']",24
+201,"['Heating', 'Internet', 'TV', 'Wireless Internet']",23
+202,"['Heating', 'Shampoo', 'TV', 'Wireless Internet']",22
+203,"['Essentials', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",31
+204,"['Dryer', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",30
+205,"['Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",29
+206,"['Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",28
+207,"['Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",27
+208,"['Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",26
+209,"['Dryer', 'Essentials', 'Kitchen', 'Wireless Internet']",29
+210,"['Essentials', 'Kitchen', 'Washer', 'Wireless Internet']",28
+211,"['Essentials', 'Internet', 'Kitchen', 'Wireless Internet']",27
+212,"['Essentials', 'Kitchen', 'Shampoo', 'Wireless Internet']",26
+213,"['Essentials', 'Kitchen', 'TV', 'Wireless Internet']",25
+214,"['Dryer', 'Kitchen', 'Washer', 'Wireless Internet']",27
+215,"['Dryer', 'Internet', 'Kitchen', 'Wireless Internet']",26
+216,"['Dryer', 'Kitchen', 'Shampoo', 'Wireless Internet']",25
+217,"['Dryer', 'Kitchen', 'TV', 'Wireless Internet']",24
+218,"['Internet', 'Kitchen', 'Washer', 'Wireless Internet']",25
+219,"['Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",24
+220,"['Kitchen', 'TV', 'Washer', 'Wireless Internet']",23
+221,"['Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",23
+222,"['Internet', 'Kitchen', 'TV', 'Wireless Internet']",22
+223,"['Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",21
+224,"['Dryer', 'Essentials', 'Smoke Detector', 'Wireless Internet']",28
+225,"['Essentials', 'Smoke Detector', 'Washer', 'Wireless Internet']",27
+226,"['Essentials', 'Internet', 'Smoke Detector', 'Wireless Internet']",26
+227,"['Essentials', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",25
+228,"['Essentials', 'Smoke Detector', 'TV', 'Wireless Internet']",24
+229,"['Dryer', 'Smoke Detector', 'Washer', 'Wireless Internet']",26
+230,"['Dryer', 'Internet', 'Smoke Detector', 'Wireless Internet']",25
+231,"['Dryer', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",24
+232,"['Dryer', 'Smoke Detector', 'TV', 'Wireless Internet']",23
+233,"['Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",24
+234,"['Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",23
+235,"['Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",22
+236,"['Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",22
+237,"['Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",21
+238,"['Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",20
+239,"['Dryer', 'Essentials', 'Washer', 'Wireless Internet']",25
+240,"['Dryer', 'Essentials', 'Internet', 'Wireless Internet']",24
+241,"['Dryer', 'Essentials', 'Shampoo', 'Wireless Internet']",23
+242,"['Dryer', 'Essentials', 'TV', 'Wireless Internet']",22
+243,"['Essentials', 'Internet', 'Washer', 'Wireless Internet']",23
+244,"['Essentials', 'Shampoo', 'Washer', 'Wireless Internet']",22
+245,"['Essentials', 'TV', 'Washer', 'Wireless Internet']",21
+246,"['Essentials', 'Internet', 'Shampoo', 'Wireless Internet']",21
+247,"['Essentials', 'Internet', 'TV', 'Wireless Internet']",20
+248,"['Essentials', 'Shampoo', 'TV', 'Wireless Internet']",19
+249,"['Dryer', 'Internet', 'Washer', 'Wireless Internet']",22
+250,"['Dryer', 'Shampoo', 'Washer', 'Wireless Internet']",21
+251,"['Dryer', 'TV', 'Washer', 'Wireless Internet']",20
+252,"['Dryer', 'Internet', 'Shampoo', 'Wireless Internet']",20
+253,"['Dryer', 'Internet', 'TV', 'Wireless Internet']",19
+254,"['Dryer', 'Shampoo', 'TV', 'Wireless Internet']",18
+255,"['Internet', 'Shampoo', 'Washer', 'Wireless Internet']",19
+256,"['Internet', 'TV', 'Washer', 'Wireless Internet']",18
+257,"['Shampoo', 'TV', 'Washer', 'Wireless Internet']",17
+258,"['Internet', 'Shampoo', 'TV', 'Wireless Internet']",16
+259,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector']",30
+260,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector']",29
+261,"['Heating', 'Kitchen', 'Smoke Detector', 'Washer']",28
+262,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector']",27
+263,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector']",26
+264,"['Heating', 'Kitchen', 'Smoke Detector', 'TV']",25
+265,"['Dryer', 'Essentials', 'Heating', 'Kitchen']",28
+266,"['Essentials', 'Heating', 'Kitchen', 'Washer']",27
+267,"['Essentials', 'Heating', 'Internet', 'Kitchen']",26
+268,"['Essentials', 'Heating', 'Kitchen', 'Shampoo']",25
+269,"['Essentials', 'Heating', 'Kitchen', 'TV']",24
+270,"['Dryer', 'Heating', 'Kitchen', 'Washer']",26
+271,"['Dryer', 'Heating', 'Internet', 'Kitchen']",25
+272,"['Dryer', 'Heating', 'Kitchen', 'Shampoo']",24
+273,"['Dryer', 'Heating', 'Kitchen', 'TV']",23
+274,"['Heating', 'Internet', 'Kitchen', 'Washer']",24
+275,"['Heating', 'Kitchen', 'Shampoo', 'Washer']",23
+276,"['Heating', 'Kitchen', 'TV', 'Washer']",22
+277,"['Heating', 'Internet', 'Kitchen', 'Shampoo']",22
+278,"['Heating', 'Internet', 'Kitchen', 'TV']",21
+279,"['Heating', 'Kitchen', 'Shampoo', 'TV']",20
+280,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector']",27
+281,"['Essentials', 'Heating', 'Smoke Detector', 'Washer']",26
+282,"['Essentials', 'Heating', 'Internet', 'Smoke Detector']",25
+283,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector']",24
+284,"['Essentials', 'Heating', 'Smoke Detector', 'TV']",23
+285,"['Dryer', 'Heating', 'Smoke Detector', 'Washer']",25
+286,"['Dryer', 'Heating', 'Internet', 'Smoke Detector']",24
+287,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector']",23
+288,"['Dryer', 'Heating', 'Smoke Detector', 'TV']",22
+289,"['Heating', 'Internet', 'Smoke Detector', 'Washer']",23
+290,"['Heating', 'Shampoo', 'Smoke Detector', 'Washer']",22
+291,"['Heating', 'Smoke Detector', 'TV', 'Washer']",21
+292,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector']",21
+293,"['Heating', 'Internet', 'Smoke Detector', 'TV']",20
+294,"['Heating', 'Shampoo', 'Smoke Detector', 'TV']",19
+295,"['Dryer', 'Essentials', 'Heating', 'Washer']",24
+296,"['Dryer', 'Essentials', 'Heating', 'Internet']",23
+297,"['Dryer', 'Essentials', 'Heating', 'Shampoo']",22
+298,"['Dryer', 'Essentials', 'Heating', 'TV']",21
+299,"['Essentials', 'Heating', 'Internet', 'Washer']",22
+300,"['Essentials', 'Heating', 'Shampoo', 'Washer']",21
+301,"['Essentials', 'Heating', 'TV', 'Washer']",20
+302,"['Essentials', 'Heating', 'Internet', 'Shampoo']",20
+303,"['Essentials', 'Heating', 'Internet', 'TV']",19
+304,"['Essentials', 'Heating', 'Shampoo', 'TV']",18
+305,"['Dryer', 'Heating', 'Internet', 'Washer']",21
+306,"['Dryer', 'Heating', 'Shampoo', 'Washer']",20
+307,"['Dryer', 'Heating', 'TV', 'Washer']",19
+308,"['Dryer', 'Heating', 'Internet', 'Shampoo']",19
+309,"['Dryer', 'Heating', 'Internet', 'TV']",18
+310,"['Dryer', 'Heating', 'Shampoo', 'TV']",17
+311,"['Heating', 'Internet', 'Shampoo', 'Washer']",18
+312,"['Heating', 'Internet', 'TV', 'Washer']",17
+313,"['Heating', 'Shampoo', 'TV', 'Washer']",16
+314,"['Heating', 'Internet', 'Shampoo', 'TV']",15
+315,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector']",26
+316,"['Essentials', 'Kitchen', 'Smoke Detector', 'Washer']",25
+317,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector']",24
+318,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector']",23
+319,"['Essentials', 'Kitchen', 'Smoke Detector', 'TV']",22
+320,"['Dryer', 'Kitchen', 'Smoke Detector', 'Washer']",24
+321,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector']",23
+322,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector']",22
+323,"['Dryer', 'Kitchen', 'Smoke Detector', 'TV']",21
+324,"['Internet', 'Kitchen', 'Smoke Detector', 'Washer']",22
+325,"['Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",21
+326,"['Kitchen', 'Smoke Detector', 'TV', 'Washer']",20
+327,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",20
+328,"['Internet', 'Kitchen', 'Smoke Detector', 'TV']",19
+329,"['Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",18
+330,"['Dryer', 'Essentials', 'Kitchen', 'Washer']",23
+331,"['Dryer', 'Essentials', 'Internet', 'Kitchen']",22
+332,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo']",21
+333,"['Dryer', 'Essentials', 'Kitchen', 'TV']",20
+334,"['Essentials', 'Internet', 'Kitchen', 'Washer']",21
+335,"['Essentials', 'Kitchen', 'Shampoo', 'Washer']",20
+336,"['Essentials', 'Kitchen', 'TV', 'Washer']",19
+337,"['Essentials', 'Internet', 'Kitchen', 'Shampoo']",19
+338,"['Essentials', 'Internet', 'Kitchen', 'TV']",18
+339,"['Essentials', 'Kitchen', 'Shampoo', 'TV']",17
+340,"['Dryer', 'Internet', 'Kitchen', 'Washer']",20
+341,"['Dryer', 'Kitchen', 'Shampoo', 'Washer']",19
+342,"['Dryer', 'Kitchen', 'TV', 'Washer']",18
+343,"['Dryer', 'Internet', 'Kitchen', 'Shampoo']",18
+344,"['Dryer', 'Internet', 'Kitchen', 'TV']",17
+345,"['Dryer', 'Kitchen', 'Shampoo', 'TV']",16
+346,"['Internet', 'Kitchen', 'Shampoo', 'Washer']",17
+347,"['Internet', 'Kitchen', 'TV', 'Washer']",16
+348,"['Kitchen', 'Shampoo', 'TV', 'Washer']",15
+349,"['Internet', 'Kitchen', 'Shampoo', 'TV']",14
+350,"['Dryer', 'Essentials', 'Smoke Detector', 'Washer']",22
+351,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector']",21
+352,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector']",20
+353,"['Dryer', 'Essentials', 'Smoke Detector', 'TV']",19
+354,"['Essentials', 'Internet', 'Smoke Detector', 'Washer']",20
+355,"['Essentials', 'Shampoo', 'Smoke Detector', 'Washer']",19
+356,"['Essentials', 'Smoke Detector', 'TV', 'Washer']",18
+357,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector']",18
+358,"['Essentials', 'Internet', 'Smoke Detector', 'TV']",17
+359,"['Essentials', 'Shampoo', 'Smoke Detector', 'TV']",16
+360,"['Dryer', 'Internet', 'Smoke Detector', 'Washer']",19
+361,"['Dryer', 'Shampoo', 'Smoke Detector', 'Washer']",18
+362,"['Dryer', 'Smoke Detector', 'TV', 'Washer']",17
+363,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector']",17
+364,"['Dryer', 'Internet', 'Smoke Detector', 'TV']",16
+365,"['Dryer', 'Shampoo', 'Smoke Detector', 'TV']",15
+366,"['Internet', 'Shampoo', 'Smoke Detector', 'Washer']",16
+367,"['Internet', 'Smoke Detector', 'TV', 'Washer']",15
+368,"['Shampoo', 'Smoke Detector', 'TV', 'Washer']",14
+369,"['Internet', 'Shampoo', 'Smoke Detector', 'TV']",13
+370,"['Dryer', 'Essentials', 'Internet', 'Washer']",18
+371,"['Dryer', 'Essentials', 'Shampoo', 'Washer']",17
+372,"['Dryer', 'Essentials', 'TV', 'Washer']",16
+373,"['Dryer', 'Essentials', 'Internet', 'Shampoo']",16
+374,"['Dryer', 'Essentials', 'Internet', 'TV']",15
+375,"['Dryer', 'Essentials', 'Shampoo', 'TV']",14
+376,"['Essentials', 'Internet', 'Shampoo', 'Washer']",15
+377,"['Essentials', 'Internet', 'TV', 'Washer']",14
+378,"['Essentials', 'Shampoo', 'TV', 'Washer']",13
+379,"['Essentials', 'Internet', 'Shampoo', 'TV']",12
+380,"['Dryer', 'Internet', 'Shampoo', 'Washer']",14
+381,"['Dryer', 'Internet', 'TV', 'Washer']",13
+382,"['Dryer', 'Shampoo', 'TV', 'Washer']",12
+383,"['Dryer', 'Internet', 'Shampoo', 'TV']",11
+384,"['Internet', 'Shampoo', 'TV', 'Washer']",10
+385,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",40
+386,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",39
+387,"['Heating', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",38
+388,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",37
+389,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",36
+390,"['Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",35
+391,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Wireless Internet']",38
+392,"['Essentials', 'Heating', 'Kitchen', 'Washer', 'Wireless Internet']",37
+393,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Wireless Internet']",36
+394,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Wireless Internet']",35
+395,"['Essentials', 'Heating', 'Kitchen', 'TV', 'Wireless Internet']",34
+396,"['Dryer', 'Heating', 'Kitchen', 'Washer', 'Wireless Internet']",36
+397,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Wireless Internet']",35
+398,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Wireless Internet']",34
+399,"['Dryer', 'Heating', 'Kitchen', 'TV', 'Wireless Internet']",33
+400,"['Heating', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",34
+401,"['Heating', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",33
+402,"['Heating', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",32
+403,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",32
+404,"['Heating', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",31
+405,"['Heating', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",30
+406,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'Wireless Internet']",37
+407,"['Essentials', 'Heating', 'Smoke Detector', 'Washer', 'Wireless Internet']",36
+408,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'Wireless Internet']",35
+409,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",34
+410,"['Essentials', 'Heating', 'Smoke Detector', 'TV', 'Wireless Internet']",33
+411,"['Dryer', 'Heating', 'Smoke Detector', 'Washer', 'Wireless Internet']",35
+412,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'Wireless Internet']",34
+413,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",33
+414,"['Dryer', 'Heating', 'Smoke Detector', 'TV', 'Wireless Internet']",32
+415,"['Heating', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",33
+416,"['Heating', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",32
+417,"['Heating', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",31
+418,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",31
+419,"['Heating', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",30
+420,"['Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",29
+421,"['Dryer', 'Essentials', 'Heating', 'Washer', 'Wireless Internet']",34
+422,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Wireless Internet']",33
+423,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Wireless Internet']",32
+424,"['Dryer', 'Essentials', 'Heating', 'TV', 'Wireless Internet']",31
+425,"['Essentials', 'Heating', 'Internet', 'Washer', 'Wireless Internet']",32
+426,"['Essentials', 'Heating', 'Shampoo', 'Washer', 'Wireless Internet']",31
+427,"['Essentials', 'Heating', 'TV', 'Washer', 'Wireless Internet']",30
+428,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Wireless Internet']",30
+429,"['Essentials', 'Heating', 'Internet', 'TV', 'Wireless Internet']",29
+430,"['Essentials', 'Heating', 'Shampoo', 'TV', 'Wireless Internet']",28
+431,"['Dryer', 'Heating', 'Internet', 'Washer', 'Wireless Internet']",31
+432,"['Dryer', 'Heating', 'Shampoo', 'Washer', 'Wireless Internet']",30
+433,"['Dryer', 'Heating', 'TV', 'Washer', 'Wireless Internet']",29
+434,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Wireless Internet']",29
+435,"['Dryer', 'Heating', 'Internet', 'TV', 'Wireless Internet']",28
+436,"['Dryer', 'Heating', 'Shampoo', 'TV', 'Wireless Internet']",27
+437,"['Heating', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",28
+438,"['Heating', 'Internet', 'TV', 'Washer', 'Wireless Internet']",27
+439,"['Heating', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",26
+440,"['Heating', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",25
+441,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",36
+442,"['Essentials', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",35
+443,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",34
+444,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",33
+445,"['Essentials', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",32
+446,"['Dryer', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",34
+447,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",33
+448,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",32
+449,"['Dryer', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",31
+450,"['Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",32
+451,"['Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",31
+452,"['Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",30
+453,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",30
+454,"['Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",29
+455,"['Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",28
+456,"['Dryer', 'Essentials', 'Kitchen', 'Washer', 'Wireless Internet']",33
+457,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Wireless Internet']",32
+458,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Wireless Internet']",31
+459,"['Dryer', 'Essentials', 'Kitchen', 'TV', 'Wireless Internet']",30
+460,"['Essentials', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",31
+461,"['Essentials', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",30
+462,"['Essentials', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",29
+463,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",29
+464,"['Essentials', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",28
+465,"['Essentials', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",27
+466,"['Dryer', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",30
+467,"['Dryer', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",29
+468,"['Dryer', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",28
+469,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",28
+470,"['Dryer', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",27
+471,"['Dryer', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",26
+472,"['Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",27
+473,"['Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",26
+474,"['Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",25
+475,"['Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",24
+476,"['Dryer', 'Essentials', 'Smoke Detector', 'Washer', 'Wireless Internet']",32
+477,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'Wireless Internet']",31
+478,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",30
+479,"['Dryer', 'Essentials', 'Smoke Detector', 'TV', 'Wireless Internet']",29
+480,"['Essentials', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",30
+481,"['Essentials', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",29
+482,"['Essentials', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",28
+483,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",28
+484,"['Essentials', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",27
+485,"['Essentials', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",26
+486,"['Dryer', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",29
+487,"['Dryer', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",28
+488,"['Dryer', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",27
+489,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",27
+490,"['Dryer', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",26
+491,"['Dryer', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",25
+492,"['Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",26
+493,"['Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",25
+494,"['Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",24
+495,"['Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",23
+496,"['Dryer', 'Essentials', 'Internet', 'Washer', 'Wireless Internet']",28
+497,"['Dryer', 'Essentials', 'Shampoo', 'Washer', 'Wireless Internet']",27
+498,"['Dryer', 'Essentials', 'TV', 'Washer', 'Wireless Internet']",26
+499,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Wireless Internet']",26
+500,"['Dryer', 'Essentials', 'Internet', 'TV', 'Wireless Internet']",25
+501,"['Dryer', 'Essentials', 'Shampoo', 'TV', 'Wireless Internet']",24
+502,"['Essentials', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",25
+503,"['Essentials', 'Internet', 'TV', 'Washer', 'Wireless Internet']",24
+504,"['Essentials', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",23
+505,"['Essentials', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",22
+506,"['Dryer', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",24
+507,"['Dryer', 'Internet', 'TV', 'Washer', 'Wireless Internet']",23
+508,"['Dryer', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",22
+509,"['Dryer', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",21
+510,"['Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",20
+511,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector']",35
+512,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'Washer']",34
+513,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector']",33
+514,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector']",32
+515,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV']",31
+516,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'Washer']",33
+517,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector']",32
+518,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector']",31
+519,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'TV']",30
+520,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",31
+521,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",30
+522,"['Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",29
+523,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",29
+524,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",28
+525,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",27
+526,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Washer']",32
+527,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen']",31
+528,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo']",30
+529,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'TV']",29
+530,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Washer']",30
+531,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Washer']",29
+532,"['Essentials', 'Heating', 'Kitchen', 'TV', 'Washer']",28
+533,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo']",28
+534,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'TV']",27
+535,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV']",26
+536,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Washer']",29
+537,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Washer']",28
+538,"['Dryer', 'Heating', 'Kitchen', 'TV', 'Washer']",27
+539,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo']",27
+540,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'TV']",26
+541,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'TV']",25
+542,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",26
+543,"['Heating', 'Internet', 'Kitchen', 'TV', 'Washer']",25
+544,"['Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer']",24
+545,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV']",23
+546,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'Washer']",31
+547,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector']",30
+548,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector']",29
+549,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'TV']",28
+550,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'Washer']",29
+551,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'Washer']",28
+552,"['Essentials', 'Heating', 'Smoke Detector', 'TV', 'Washer']",27
+553,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector']",27
+554,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV']",26
+555,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV']",25
+556,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'Washer']",28
+557,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'Washer']",27
+558,"['Dryer', 'Heating', 'Smoke Detector', 'TV', 'Washer']",26
+559,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector']",26
+560,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'TV']",25
+561,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'TV']",24
+562,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",25
+563,"['Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer']",24
+564,"['Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",23
+565,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",22
+566,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Washer']",27
+567,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Washer']",26
+568,"['Dryer', 'Essentials', 'Heating', 'TV', 'Washer']",25
+569,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo']",25
+570,"['Dryer', 'Essentials', 'Heating', 'Internet', 'TV']",24
+571,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'TV']",23
+572,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Washer']",24
+573,"['Essentials', 'Heating', 'Internet', 'TV', 'Washer']",23
+574,"['Essentials', 'Heating', 'Shampoo', 'TV', 'Washer']",22
+575,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'TV']",21
+576,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Washer']",23
+577,"['Dryer', 'Heating', 'Internet', 'TV', 'Washer']",22
+578,"['Dryer', 'Heating', 'Shampoo', 'TV', 'Washer']",21
+579,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'TV']",20
+580,"['Heating', 'Internet', 'Shampoo', 'TV', 'Washer']",19
+581,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'Washer']",30
+582,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector']",29
+583,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector']",28
+584,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'TV']",27
+585,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",28
+586,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",27
+587,"['Essentials', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",26
+588,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",26
+589,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",25
+590,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",24
+591,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",27
+592,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",26
+593,"['Dryer', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",25
+594,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",25
+595,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",24
+596,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",23
+597,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",24
+598,"['Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",23
+599,"['Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",22
+600,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",21
+601,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Washer']",26
+602,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Washer']",25
+603,"['Dryer', 'Essentials', 'Kitchen', 'TV', 'Washer']",24
+604,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo']",24
+605,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'TV']",23
+606,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'TV']",22
+607,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",23
+608,"['Essentials', 'Internet', 'Kitchen', 'TV', 'Washer']",22
+609,"['Essentials', 'Kitchen', 'Shampoo', 'TV', 'Washer']",21
+610,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV']",20
+611,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",22
+612,"['Dryer', 'Internet', 'Kitchen', 'TV', 'Washer']",21
+613,"['Dryer', 'Kitchen', 'Shampoo', 'TV', 'Washer']",20
+614,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'TV']",19
+615,"['Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",18
+616,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'Washer']",25
+617,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'Washer']",24
+618,"['Dryer', 'Essentials', 'Smoke Detector', 'TV', 'Washer']",23
+619,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector']",23
+620,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'TV']",22
+621,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'TV']",21
+622,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",22
+623,"['Essentials', 'Internet', 'Smoke Detector', 'TV', 'Washer']",21
+624,"['Essentials', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",20
+625,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",19
+626,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",21
+627,"['Dryer', 'Internet', 'Smoke Detector', 'TV', 'Washer']",20
+628,"['Dryer', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",19
+629,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",18
+630,"['Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",17
+631,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Washer']",20
+632,"['Dryer', 'Essentials', 'Internet', 'TV', 'Washer']",19
+633,"['Dryer', 'Essentials', 'Shampoo', 'TV', 'Washer']",18
+634,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'TV']",17
+635,"['Essentials', 'Internet', 'Shampoo', 'TV', 'Washer']",16
+636,"['Dryer', 'Internet', 'Shampoo', 'TV', 'Washer']",15
+637,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",45
+638,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",44
+639,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",43
+640,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",42
+641,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",41
+642,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",43
+643,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",42
+644,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",41
+645,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",40
+646,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",41
+647,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",40
+648,"['Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",39
+649,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",39
+650,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",38
+651,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",37
+652,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Washer', 'Wireless Internet']",42
+653,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Wireless Internet']",41
+654,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Wireless Internet']",40
+655,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'TV', 'Wireless Internet']",39
+656,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",40
+657,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",39
+658,"['Essentials', 'Heating', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",38
+659,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",38
+660,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",37
+661,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",36
+662,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",39
+663,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",38
+664,"['Dryer', 'Heating', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",37
+665,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",37
+666,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",36
+667,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",35
+668,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",36
+669,"['Heating', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",35
+670,"['Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",34
+671,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",33
+672,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'Washer', 'Wireless Internet']",41
+673,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'Wireless Internet']",40
+674,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",39
+675,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'TV', 'Wireless Internet']",38
+676,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",39
+677,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",38
+678,"['Essentials', 'Heating', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",37
+679,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",37
+680,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",36
+681,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",35
+682,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",38
+683,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",37
+684,"['Dryer', 'Heating', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",36
+685,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",36
+686,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",35
+687,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",34
+688,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",35
+689,"['Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",34
+690,"['Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",33
+691,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",32
+692,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Washer', 'Wireless Internet']",37
+693,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Washer', 'Wireless Internet']",36
+694,"['Dryer', 'Essentials', 'Heating', 'TV', 'Washer', 'Wireless Internet']",35
+695,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Wireless Internet']",35
+696,"['Dryer', 'Essentials', 'Heating', 'Internet', 'TV', 'Wireless Internet']",34
+697,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'TV', 'Wireless Internet']",33
+698,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",34
+699,"['Essentials', 'Heating', 'Internet', 'TV', 'Washer', 'Wireless Internet']",33
+700,"['Essentials', 'Heating', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",32
+701,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",31
+702,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",33
+703,"['Dryer', 'Heating', 'Internet', 'TV', 'Washer', 'Wireless Internet']",32
+704,"['Dryer', 'Heating', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",31
+705,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",30
+706,"['Heating', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",29
+707,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",40
+708,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",39
+709,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",38
+710,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",37
+711,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",38
+712,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",37
+713,"['Essentials', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",36
+714,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",36
+715,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",35
+716,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",34
+717,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",37
+718,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",36
+719,"['Dryer', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",35
+720,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",35
+721,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",34
+722,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",33
+723,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",34
+724,"['Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",33
+725,"['Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",32
+726,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",31
+727,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",36
+728,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",35
+729,"['Dryer', 'Essentials', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",34
+730,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",34
+731,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",33
+732,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",32
+733,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",33
+734,"['Essentials', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",32
+735,"['Essentials', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",31
+736,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",30
+737,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",32
+738,"['Dryer', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",31
+739,"['Dryer', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",30
+740,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",29
+741,"['Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",28
+742,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",35
+743,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",34
+744,"['Dryer', 'Essentials', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",33
+745,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",33
+746,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",32
+747,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",31
+748,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",32
+749,"['Essentials', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",31
+750,"['Essentials', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",30
+751,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",29
+752,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",31
+753,"['Dryer', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",30
+754,"['Dryer', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",29
+755,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",28
+756,"['Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",27
+757,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",30
+758,"['Dryer', 'Essentials', 'Internet', 'TV', 'Washer', 'Wireless Internet']",29
+759,"['Dryer', 'Essentials', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",28
+760,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",27
+761,"['Essentials', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",26
+762,"['Dryer', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",25
+763,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'Washer']",39
+764,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector']",38
+765,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector']",37
+766,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV']",36
+767,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",37
+768,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",36
+769,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",35
+770,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",35
+771,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",34
+772,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",33
+773,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",36
+774,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",35
+775,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",34
+776,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",34
+777,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",33
+778,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",32
+779,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",33
+780,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",32
+781,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",31
+782,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",30
+783,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Washer']",35
+784,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Washer']",34
+785,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'TV', 'Washer']",33
+786,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo']",33
+787,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'TV']",32
+788,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV']",31
+789,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",32
+790,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'TV', 'Washer']",31
+791,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer']",30
+792,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV']",29
+793,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",31
+794,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'TV', 'Washer']",30
+795,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer']",29
+796,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV']",28
+797,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",27
+798,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'Washer']",34
+799,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'Washer']",33
+800,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'TV', 'Washer']",32
+801,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector']",32
+802,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV']",31
+803,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV']",30
+804,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",31
+805,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer']",30
+806,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",29
+807,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",28
+808,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",30
+809,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer']",29
+810,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",28
+811,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",27
+812,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",26
+813,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Washer']",29
+814,"['Dryer', 'Essentials', 'Heating', 'Internet', 'TV', 'Washer']",28
+815,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'TV', 'Washer']",27
+816,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'TV']",26
+817,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'TV', 'Washer']",25
+818,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'TV', 'Washer']",24
+819,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",33
+820,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",32
+821,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",31
+822,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",31
+823,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",30
+824,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",29
+825,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",30
+826,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",29
+827,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",28
+828,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",27
+829,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",29
+830,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",28
+831,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",27
+832,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",26
+833,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",25
+834,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",28
+835,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'TV', 'Washer']",27
+836,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'TV', 'Washer']",26
+837,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV']",25
+838,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",24
+839,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",23
+840,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",27
+841,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'TV', 'Washer']",26
+842,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",25
+843,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",24
+844,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",23
+845,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",22
+846,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'TV', 'Washer']",21
+847,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",49
+848,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Wireless Internet']",48
+849,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",47
+850,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",46
+851,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",47
+852,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",46
+853,"['Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",45
+854,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",45
+855,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",44
+856,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",43
+857,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",46
+858,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",45
+859,"['Dryer', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",44
+860,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",44
+861,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",43
+862,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",42
+863,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",43
+864,"['Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",42
+865,"['Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",41
+866,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",40
+867,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Washer', 'Wireless Internet']",45
+868,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",44
+869,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",43
+870,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Wireless Internet']",43
+871,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'TV', 'Wireless Internet']",42
+872,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",41
+873,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",42
+874,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",41
+875,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",40
+876,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",39
+877,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",41
+878,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",40
+879,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",39
+880,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",38
+881,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",37
+882,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'Washer', 'Wireless Internet']",44
+883,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",43
+884,"['Dryer', 'Essentials', 'Heating', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",42
+885,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",42
+886,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Wireless Internet']",41
+887,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",40
+888,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",41
+889,"['Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",40
+890,"['Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",39
+891,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",38
+892,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",40
+893,"['Dryer', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",39
+894,"['Dryer', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",38
+895,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",37
+896,"['Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",36
+897,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Washer', 'Wireless Internet']",39
+898,"['Dryer', 'Essentials', 'Heating', 'Internet', 'TV', 'Washer', 'Wireless Internet']",38
+899,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",37
+900,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'TV', 'Wireless Internet']",36
+901,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",35
+902,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",34
+903,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",43
+904,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",42
+905,"['Dryer', 'Essentials', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",41
+906,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",41
+907,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",40
+908,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",39
+909,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",40
+910,"['Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",39
+911,"['Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",38
+912,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",37
+913,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",39
+914,"['Dryer', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",38
+915,"['Dryer', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",37
+916,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",36
+917,"['Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",35
+918,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",38
+919,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",37
+920,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",36
+921,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",35
+922,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",34
+923,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",33
+924,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",37
+925,"['Dryer', 'Essentials', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",36
+926,"['Dryer', 'Essentials', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",35
+927,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",34
+928,"['Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",33
+929,"['Dryer', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",32
+930,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",31
+931,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer']",42
+932,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",41
+933,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",40
+934,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector']",40
+935,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV']",39
+936,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",38
+937,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",39
+938,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",38
+939,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",37
+940,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",36
+941,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",38
+942,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",37
+943,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",36
+944,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",35
+945,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",34
+946,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer']",37
+947,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'TV', 'Washer']",36
+948,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer']",35
+949,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV']",34
+950,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",33
+951,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",32
+952,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer']",36
+953,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer']",35
+954,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",34
+955,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV']",33
+956,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",32
+957,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",31
+958,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'TV', 'Washer']",30
+959,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",35
+960,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",34
+961,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",33
+962,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",32
+963,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",31
+964,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",30
+965,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",29
+966,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",28
+967,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'Washer', 'Wireless Internet']",52
+968,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",51
+969,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",50
+970,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Wireless Internet']",50
+971,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Wireless Internet']",49
+972,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",48
+973,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",49
+974,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",48
+975,"['Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",47
+976,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",46
+977,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",48
+978,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",47
+979,"['Dryer', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",46
+980,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",45
+981,"['Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",44
+982,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Washer', 'Wireless Internet']",47
+983,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'TV', 'Washer', 'Wireless Internet']",46
+984,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",45
+985,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Wireless Internet']",44
+986,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",43
+987,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",42
+988,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",46
+989,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",45
+990,"['Dryer', 'Essentials', 'Heating', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",44
+991,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",43
+992,"['Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",42
+993,"['Dryer', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",41
+994,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",40
+995,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",45
+996,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",44
+997,"['Dryer', 'Essentials', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",43
+998,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",42
+999,"['Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",41
+1000,"['Dryer', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",40
+1001,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",39
+1002,"['Dryer', 'Essentials', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",38
+1003,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer']",44
+1004,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer']",43
+1005,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",42
+1006,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV']",41
+1007,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",40
+1008,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",39
+1009,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer']",38
+1010,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",37
+1011,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",36
+1012,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'Washer', 'Wireless Internet']",54
+1013,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",53
+1014,"['Dryer', 'Essentials', 'Heating', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",52
+1015,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Wireless Internet']",51
+1016,"['Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",50
+1017,"['Dryer', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",49
+1018,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'TV', 'Washer', 'Wireless Internet']",48
+1019,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",47
+1020,"['Dryer', 'Essentials', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",46
+1021,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer']",45
+1022,"['Dryer', 'Essentials', 'Heating', 'Internet', 'Kitchen', 'Shampoo', 'Smoke Detector', 'TV', 'Washer', 'Wireless Internet']",55
