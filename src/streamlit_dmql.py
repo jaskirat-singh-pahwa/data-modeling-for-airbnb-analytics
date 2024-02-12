@@ -105,7 +105,7 @@ def plot_graph(user_input, result_df):
     query_5_hash = hash_query(query=query_5)
     query_6_hash = hash_query(query=query_6)
     query_7_hash = hash_query(query=query_7)
-    
+
 
     # Check if the query hash matches the user input hash
     user_input_hash = hash_query(query=user_input)
@@ -201,13 +201,13 @@ def main():
     query = st.text_area("Enter your SQL query:")
 
     # Button to execute the query
-    if st.button("Run Query"):
-        if query:
-            result_df = run_query(query)
-            st.dataframe(result_df)
-            plot_graph(user_input=query, result_df=result_df)
-        else:
-            st.warning("Please enter a query.")
+    # if st.button("Run Query"):
+    #     if query:
+    #         result_df = run_query(query)
+    #         st.dataframe(result_df)
+    #         plot_graph(user_input=query, result_df=result_df)
+    #     else:
+    #         st.warning("Please enter a query.")
 
 
 if __name__ == "__main__":
