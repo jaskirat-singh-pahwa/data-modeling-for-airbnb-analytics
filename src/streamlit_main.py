@@ -1,97 +1,19 @@
 """
     This module is to run queries on web UI using streamlit for Airbnb database.
 """
-import hashlib
 import streamlit as st
 import psycopg2
 import pandas as pd
 import matplotlib.pyplot as plt
 
 
-db_params = {
-    'host': 'localhost',
-    'database': 'Airbnb_listings',
-    'user': 'postgres',
-    'password': 'Pass@12345',
-}
 
-query_1 = """
-SELECT hl.host_id, COUNT(r.average_review_score) AS total_times_highest_score, h.host_name
-FROM house_listings hl
-JOIN hosts h ON hl.host_id = h.host_id
-JOIN review r on hl.review_id = r.review_id
-WHERE r.average_review_score = 'A'
-GROUP BY hl.host_id, h.host_name 
-ORDER BY total_times_highest_score DESC
-LIMIT 10;
-"""
-
-query_2 = """
-SELECT host_response_time, COUNT(*) AS number_of_hosts
-FROM hosts
-WHERE host_response_time IS NOT NULL
-GROUP BY host_response_time
-ORDER BY number_of_hosts DESC;
-"""
-
-query_3 = """
-SELECT h.host_name, COUNT(*) AS num_listings
-FROM house_listings hl
-JOIN hosts h ON hl.host_id = h.host_id
-GROUP BY h.host_name
-ORDER BY num_listings DESC
-LIMIT 10;
-"""
-
-query_4 = """
-SELECT ROUND(AVG(listings_per_host) :: Numeric, 2) AS average_listings_per_host
-FROM (
-    SELECT host_id, COUNT(*) AS listings_per_host
-    FROM house_listings
-    GROUP BY host_id
-) AS subquery;
-"""
-
-query_5 = """
-SELECT
-	CASE
-		WHEN a.amenities_score BETWEEN 0 and 10 THEN '0-10'
-		WHEN a.amenities_score BETWEEN 11 and 20 THEN '11-20'
-		WHEN a.amenities_score BETWEEN 21 and 30 THEN '21-30'
-		WHEN a.amenities_score BETWEEN 31 and 40 THEN '31-40'
-		ELSE '41-55'
-	END AS score_bucket,
-	COUNT(DISTINCT h.host_id) AS num_hosts
-FROM house_listings h
-JOIN amenities a ON h.amenities_id = a.amenities_id
-GROUP BY score_bucket
-ORDER BY score_bucket;
-"""
-
-query_6 = """
-SELECT zipcode, COUNT(DISTINCT listing_id) AS total_properties
-FROM house_listings
-GROUP BY zipcode
-ORDER BY total_properties DESC 
-LIMIT 10;
-"""
-
-query_7 = """
-SELECT h.property_type, ROUND(AVG(amenities_score) :: numeric, 2) average_amenities_score
-FROM house_listings h
-JOIN amenities a ON h.amenities_id = a.amenities_id
-GROUP BY h.property_type
-ORDER BY average_amenities_score DESC;
-"""
-
-
-def hash_query(query):
-    """ 
-        This module is to get hash value 
-    """
-    processed_query = ' '.join(query.split())
-    query_hash = hashlib.sha256(processed_query.encode()).hexdigest()
-    return query_hash
+# db_params = {
+#     'host': 'localhost',
+#     'database': 'Airbnb_listings',
+#     'user': 'postgres',
+#     'password': 'Pass@12345',
+# }
 
 
 def plot_graph(user_input, result_df):
@@ -191,23 +113,25 @@ def run_query(query):
     return df
 
 
-def main():
+def main() -> None:
     """
         This is the main entry point of the module.
     """
     st.title("Airbnb House Listings Query Runner")
 
     # Input for SQL Query
-    query = st.text_area("Enter your SQL query:")
+    input_query: str = st.text_area("Enter your SQL query:")
 
     # Button to execute the query
-    # if st.button("Run Query"):
-    #     if query:
-    #         result_df = run_query(query)
-    #         st.dataframe(result_df)
-    #         plot_graph(user_input=query, result_df=result_df)
-    #     else:
-    #         st.warning("Please enter a query.")
+    if st.button("Run Query"):
+
+        if input_query:
+            result: pd.DataFrame = run_query(input_query)
+            st.dataframe(result)
+            plot_graph(user_input=input_query, result_df=result)
+
+        else:
+            st.warning("Please enter a query.")
 
 
 if __name__ == "__main__":
